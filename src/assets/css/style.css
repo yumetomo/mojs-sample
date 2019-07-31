@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*----------dont edit css----------*/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', 'Lucida Grande', sans-serif;
+  font-size: 100%;
+  color: #000000;
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, textarea {
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+}
+
+body {
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+svg {
+  overflow: visible;
+}
+
+h2 {
+  padding: 30px 0 10px;
+}
+
+h2 span {
+  font-size: 14px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  background: #5f2d38;
+  overflow: hidden;
+}
+
+.controller {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px 0 0;
+  background: #3a3a3a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.controller p {
+  color: #fff;
+  padding-left: 10%;
+  font-size: 12px;
+}
+
+.controller span {
+  font-weight: bold;
+}
+
+.controller input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: #fff;
+  height: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+.controller input[type="range"]:focus, .controller input[type="range"]:active {
+  outline: none;
+}
+
+.controller input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  width: 22px;
+  height: 22px;
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.controller input[type="range"]:active::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+          box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
