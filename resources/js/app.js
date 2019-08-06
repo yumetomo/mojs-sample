@@ -5,6 +5,7 @@ import CustomShape from './modules/CustomShape';
 import DrawShapes from './modules/DrawShapes';
 import ShapeSwirl from './modules/ShapeSwirl';
 import Stagger from './modules/Stagger';
+import TextAnimation from './modules/TextAnimation';
 import Timeline from './modules/Timeline';
 
 class App {
@@ -16,6 +17,7 @@ class App {
     DrawShapes();
     ShapeSwirl();
     Stagger();
+    TextAnimation();
     Timeline();
   }
 }
