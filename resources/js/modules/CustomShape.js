@@ -27,7 +27,7 @@ export default function () {
     strokeDasharray: '100%',
     strokeDashoffset: { '-100%': '100%' },
     left: '75%',
-    duration: 1000,
+    duration: 2000,
     onComplete() {
       this.replay();
     }
