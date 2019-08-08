@@ -7,6 +7,7 @@ import ShapeSwirl from './modules/ShapeSwirl';
 import Stagger from './modules/Stagger';
 import TextAnimation from './modules/TextAnimation';
 import Timeline from './modules/Timeline';
+import UseCase1 from './modules/UseCase1';
 
 class App {
   constructor() {
@@ -19,6 +20,7 @@ class App {
     Stagger();
     TextAnimation();
     Timeline();
+    UseCase1();
   }
 }
 
