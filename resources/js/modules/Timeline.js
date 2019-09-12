@@ -57,7 +57,7 @@ export default function () {
       }, 500)
     }
   });
+  console.log(typeof(TIMELINE))
   TIMELINE.add(CIRCLE, RECT, POLYGON);
-
   TIMELINE.play();
 }

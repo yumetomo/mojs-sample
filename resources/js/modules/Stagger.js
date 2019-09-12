@@ -1,4 +1,6 @@
 export default function () {
+  console.log(typeof(mojs.Shape));
+
   const STAGGER = mojs.stagger(mojs.Shape);
   const SHAPES = new STAGGER({
     parent: '#stag-sample',

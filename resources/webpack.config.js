@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  mode: 'production',
   // エントリーポイントの設定
   entry: {
     app: path.join(__dirname, 'js/app.js')

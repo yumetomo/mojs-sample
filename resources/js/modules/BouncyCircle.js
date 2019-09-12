@@ -1,5 +1,5 @@
 export default function () {
-  const SHAPE = new mojs.Shape({
+  new mojs.Shape({
     parent: '#bouncy-circle',
     shape: 'circle',
     fill: { '#F64040': '#FC46AD' },
@@ -9,10 +9,8 @@ export default function () {
     isShowStart: true,
     easing: 'elastic.inout',
     repeat: 1,
-    onRepeatComplete(isForward, isYoyo) {
-      if (isYoyo) this.replay();
+    onComplete() {
+      this.replay();
     }
-  });
-
-  SHAPE.play();
+  }).play();
 }

@@ -18,6 +18,7 @@ export default function () {
   const SHAPE_SWIRL = new mojs.ShapeSwirl({
     parent: $WRAPPER,
     fill: '#F64040',
+    radius: 30,
     x: 0,
     y: { 0: -150 },
     top: '50%',

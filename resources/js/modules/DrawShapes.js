@@ -46,10 +46,8 @@ export default function () {
   new mojs.Shape({
     parent: '#draw-shapes',
     shape: 'curve',
-    points: 11,
     radius: 25,
     radiusY: 50,
-    scaleY: 1,
     top: '75%',
     left: '50%',
     fill: 'none',
@@ -60,12 +58,10 @@ export default function () {
   new mojs.Shape({
     parent: '#draw-shapes',
     shape: 'cross',
-    points: 11,
     radius: 25,
     radiusX: 50,
     top: '75%',
     left: '75%',
-    fill: 'none',
     stroke: 'yellow',
     isShowStart: true,
     y: -25,
